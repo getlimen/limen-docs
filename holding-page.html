@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Limen — the threshold of your self-hosted infrastructure</title>
+  <meta name="description" content="Self-hosted infrastructure platform combining Docker deploy management, reverse proxy with TLS, and WireGuard hub-and-spoke VPN."/>
+  <meta property="og:title" content="Limen"/>
+  <meta property="og:description" content="Self-hosted infrastructure platform combining Docker deploy management, reverse proxy with TLS, and WireGuard hub-and-spoke VPN."/>
+  <meta property="og:type" content="website"/>
+  <link rel="icon" type="image/png" href="https://github.com/getlimen/.github/raw/main/profile/assets/limen-avatar-256.png"/>
+  <style>
+    :root { color-scheme: dark; }
+    html, body { margin: 0; padding: 0; min-height: 100%; }
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f8fafc;
+      font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 720px;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+    .mark {
+      width: 96px;
+      height: 96px;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: clamp(3rem, 8vw, 5rem);
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      margin: 0 0 0.5rem;
+    }
+    .etym {
+      color: #94a3b8;
+      font-style: italic;
+      font-family: Georgia, serif;
+      margin-bottom: 2rem;
+    }
+    .tagline {
+      font-size: 1.25rem;
+      color: #cbd5e1;
+      margin-bottom: 2rem;
+    }
+    ul.features {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 2.5rem;
+      text-align: left;
+      max-width: 480px;
+      margin-inline: auto;
+    }
+    ul.features li {
+      padding: 0.5rem 0;
+      color: #cbd5e1;
+    }
+    ul.features strong { color: #f8fafc; }
+    .status {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: #fbbf24;
+      border-radius: 9999px;
+      font-size: 0.875rem;
+      margin-bottom: 2rem;
+    }
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(96, 165, 250, 0.3);
+    }
+    a:hover { border-bottom-color: #60a5fa; }
+    footer {
+      margin-top: 3rem;
+      color: #64748b;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <svg class="mark" viewBox="0 0 80 80" aria-label="Limen">
+      <g stroke="#f8fafc" stroke-linecap="square" fill="none">
+        <line x1="18" y1="14" x2="18" y2="60" stroke-width="5"/>
+        <line x1="62" y1="14" x2="62" y2="60" stroke-width="5"/>
+        <line x1="12" y1="14" x2="68" y2="14" stroke-width="5"/>
+        <line x1="6" y1="60" x2="74" y2="60" stroke-width="9"/>
+      </g>
+    </svg>
+
+    <h1>LIMEN</h1>
+    <p class="etym">Latin — "threshold"</p>
+
+    <div class="status">🚧 In active development — v0.1.0 coming soon</div>
+
+    <p class="tagline">
+      The threshold of your self-hosted infrastructure.
+    </p>
+
+    <ul class="features">
+      <li>🚢 <strong>Docker deploy management</strong> — auto-deploy on registry image updates</li>
+      <li>🔐 <strong>Reverse proxy with automatic TLS</strong> — public ingress, hostname routing, Let's Encrypt</li>
+      <li>🕸️ <strong>WireGuard hub-and-spoke VPN</strong> — connect remote sites without opening inbound ports</li>
+    </ul>
+
+    <p>
+      Follow development at
+      <a href="https://github.com/getlimen">github.com/getlimen</a>.
+    </p>
+
+    <footer>
+      <p>Apache 2.0 • Self-hosted • Docker compose</p>
+    </footer>
+  </main>
+</body>
+</html>
